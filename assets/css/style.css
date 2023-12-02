@@ -1,0 +1,75 @@
+:root {
+    --lightColor: whitesmoke;
+    --darkBrown: rgb(88, 79, 75);
+    --orange: orangered;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: var(--lightColor);
+}
+
+.navAndrea {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--lightColor);
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    background-color: var(--darkBrown);
+    color: var(--lightColor); !important
+    font-weight: 300;
+    width: 16rem;
+    text-align: center;
+    margin-left: 0;
+
+}
+.navbar-nav a {
+    color: var(--darkBrown);
+    cursor: pointer;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-nav li a:hover, .active:hover {
+    color: var(--orange)
+}
+
+.heroSection {
+    background-image: url(../images/pexels-pixabay-462023.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroSection h1, .heroSection h2, .heroSection p {
+    color: var(--lightColor);
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.description {
+    width: 705;
+    min-width: 500px;
+    max-width: 700px; /*The div contains the text, so that's good way of making sure that the width of the text doesn't get out of control and difficult to read*/
+    color: var(--light);
+    text-align: center;
+  }
+
+#AndreaPhoto {
+    width: 10em;
+    border-radius: 80px;
+}
