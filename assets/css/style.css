@@ -57,6 +57,7 @@ body {
 
 .heroSection h1, .heroSection h2, .heroSection p {
     color: var(--lightColor);
+    text-shadow: black;
     line-height: 1.5;
     font-weight: 100;
 }
@@ -66,6 +67,7 @@ body {
     min-width: 500px;
     max-width: 700px; 
     color: var(--light);
+    text-shadow: 0.5px 3px 2px var(--darkBrown);
     text-align: center;
 }
 
@@ -83,3 +85,16 @@ body {
     color: var(--lightColor)
 }
 
+.btn {
+    background-color: var(--orange);
+    border-color: var(--darkBrown);
+}
+
+.btn:hover {
+    box-shadow: 0 6px 10px var(--darkBrown);
+    background-color: var(--darkBrown);
+}
+
+.btnshadow:hover {
+    box-shadow: 0 6px 10px var(--orange);
+}
