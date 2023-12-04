@@ -64,12 +64,22 @@ body {
 .description {
     width: 705;
     min-width: 500px;
-    max-width: 700px; /*The div contains the text, so that's good way of making sure that the width of the text doesn't get out of control and difficult to read*/
+    max-width: 700px; 
     color: var(--light);
     text-align: center;
-  }
+}
 
 #AndreaPhoto {
     width: 10em;
     border-radius: 80px;
 }
+
+.workSection {
+    height: 1100px;
+}
+
+.card-title {
+    background-color: var(--darkBrown);
+    color: var(--lightColor)
+}
+
