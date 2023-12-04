@@ -64,7 +64,7 @@ body {
 
 .description {
     width: 705;
-    min-width: 500px;
+    min-width: 400px;
     max-width: 700px; 
     color: var(--light);
     text-shadow: 0.5px 3px 2px var(--darkBrown);
@@ -74,10 +74,6 @@ body {
 #AndreaPhoto {
     width: 10em;
     border-radius: 80px;
-}
-
-.workSection {
-    height: 1100px;
 }
 
 .card-title {
@@ -97,4 +93,17 @@ body {
 
 .btnshadow:hover {
     box-shadow: 0 6px 10px var(--orange);
+}
+
+.container-sm h2 {
+    background-color: var(--darkBrown);
+    color: var(--lightColor)
+}
+
+.toLearnSkills {
+    color: var(--orange);
+}
+
+.list-group-item:hover {
+    box-shadow: 0 6px 10px var(--darkBrown);
 }
